@@ -1,3 +1,9 @@
+// Este comando activa las animaciones
+AOS.init({
+    duration: 800,
+    once: true
+});
+
 tailwind.config = {
   theme: {
     extend: {
@@ -13,3 +19,4 @@ tailwind.config = {
     }
   }
 }
+
